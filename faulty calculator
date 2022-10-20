@@ -1,0 +1,22 @@
+#faulty calculator
+c = input("choose the type of operation you want to use!")
+x = float(input("enter the number:"))
+y = float(input("enter the number:"))
+if c == "*" :
+    if x == 45 and y == 3:
+        print("555")
+if c == "+":
+    if x == 56 and y == 9:
+        print("77")
+if c == "/":
+    if x == 65 and y == 6:
+        print("4")
+else:
+    if c == "+" :
+        print("sum is: ",x+y)
+    elif c == "-" :
+        print("difference is: ", x - y)
+    elif c == "*" :
+        print("product is: ", x * y)
+    elif c == "/":
+        print("quotient is: ", x / y)
